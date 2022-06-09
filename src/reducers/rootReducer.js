@@ -1,5 +1,5 @@
-import initialState from "../initialState";
+import {combineReducers} from "redux";
 
-export default function rootReducer(state = initialState) {
-    return state;
-}
+export const rootReducer = combineReducers({
+
+})
